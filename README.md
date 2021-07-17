@@ -1,2 +1,2 @@
 # Portfolio
- Portfolio Website
+ A responsive portfolio website demonstrating knowledge of front end development.
