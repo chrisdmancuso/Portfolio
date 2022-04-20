@@ -175,6 +175,7 @@ li {
   height: 10rem;
   background-color: #16162d;
   overflow: hidden;
+  visibility: hidden;
   z-index: 1500;
 }
 

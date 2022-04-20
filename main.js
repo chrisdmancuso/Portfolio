@@ -3,7 +3,7 @@ $(document).ready(function () {
     //Open Hamburger
     $('.menu-toggler').on('click', function () {
         document.getElementById("menu-toggler").style.transition = "transform 650ms ease-out";
-        document.getElementById("menu-nav").style.top = "-100px";
+        //document.getElementById("menu-nav").style.top = "-100px";
         $(this).toggleClass('open');
         $('.top-nav').toggleClass('open');
     });
@@ -37,13 +37,13 @@ $(document).ready(function () {
         if (prevScrollpos > currentScrollPos || prevScrollpos < 0) {
             document.getElementById("menu-toggler").style.top = "5rem";
             document.getElementById("menu-toggler").style.transition = "top 0.3s";
-            document.getElementById("menu-nav").style.top = "0rem";
-            document.getElementById("menu-nav").style.transition = "top 0.3s";
+            //document.getElementById("menu-nav").style.top = "0rem";
+            //document.getElementById("menu-nav").style.transition = "top 0.3s";
         } else {
             document.getElementById("menu-toggler").style.top = "-50px";
             document.getElementById("menu-toggler").style.transition = "top 0.3s";
-            document.getElementById("menu-nav").style.top = "-100px";
-            document.getElementById("menu-nav").style.transition = "top 0.3s";
+            //document.getElementById("menu-nav").style.top = "-100px";
+            //document.getElementById("menu-nav").style.transition = "top 0.3s";
         }
         prevScrollpos = currentScrollPos;
     }
